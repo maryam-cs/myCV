@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h2>Fill in the form</h2>
+  <form action="mailto:maryam-ba@hotmail.com" method="post" enctype="text/plain">
+
+    <label>Your name:</label>
+    <input type="text" name="name" value="">
+    <br>
+    <br>
+    <label for="email">Your email: </label>
+    <input type="email" name="email" id="email" required>
+    <br>
+    <br>
+    <label for="Gender-choice">Your gender:</label>
+    <input list="genders" id="Gender-choice" name="genderchoice" />
+    <datalist id="genders">
+      <option value="Male">
+      <option value="Female">
+    </datalist>
+    <br>
+    <br>
+    <label for="message">Your message:</label>
+    <br>
+    <textarea id="message" name="message" rows="8" cols="80"></textarea>
+    <br>
+    <input type="submit" name="" value="Send">
+
+  </form>
+</body>
+
+</html>
